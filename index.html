@@ -1,0 +1,305 @@
+<!doctype html>
+<html>
+<head> <!--Contains Metadata only. Little needs to be changed in this section-->
+<meta charset="utf-8">
+<title>Geoportfolio</title> <!--Changes the name on the tab-->
+	<link rel="stylesheet" href="geoportfoliocss.css"> <!--DO NOT ALTER. This is the -->
+	<link rel="icon" type="image/x-icon" href="favicon.png"> <!--#ID# #FAVICON# This changes the picture shown on the tab. Change the file name under href to your desired image e.g. href="favicon.png"-->
+</head>
+
+<body> <!--Everything in between <body> and </body> affects the display of your Geoportfolio and what is shown-->
+	<!--Start of navigation bar-->
+	<div id="sidebar" class="sidebar-animate-open" style="display:none"> <!--MUST BE AT TOP OF DOCUMENT-->
+		<button onclick="close_sidebar()" class="sidebar-menu-button close-sidebar-button">&times;</button>
+		<a href="#topofpage" class="sidebar-menu-button mainbutton">Home</a>
+		<a href="#about" class="sidebar-menu-button mainbutton">About</a>
+		<a href="#academicinfo" class="sidebar-menu-button mainbutton">Academic Information</a>
+		<a href="#industryexperience" class="sidebar-menu-button mainbutton">Industry Experience</a>
+		<a href="#sap" class="sidebar-menu-button mainbutton">Skills and Proficiencies</a>
+		<a href="#credits" class="sidebar-menu-button mainbutton">Acknowledgements</a>
+		<div class="other-sidebar-info">
+			<table class="sidebar-contact-table"> 
+				<tr>
+					<td>
+						<a href="https://www.linkedin.com/in/sam-kelly-278314322/" target="_blank"><img src="linkedin.png" class="sidebar-images"></a> <!-- #ID# #LINKEDIN# Change LinkedIn link to one of your profile page -->
+					</td>
+					<td>
+						<a href="https://www.linkedin.com/in/sam-kelly-278314322/" target="_blank">LinkedIn</a> <!-- #ID# #LINKEDIN# Change LinkedIn link to one of your profile page-->
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<!--End of navigation bar-->
+
+	<div class="header"> <!--Code for Header that opens the sidebar. DO NOT TOUCH-->
+		<button class="sidebar-menu-button open-sidebar-button" onclick="open_sidebar()">&#9776;</button>
+	</div>
+	
+	<div class="mapbgdiv" id="topofpage">
+		<img src="mapwelcomemod.jpg" alt="map" class="mapbg">
+		<div class="title">
+			<h1>Geoportfolio</h1>
+			<h2>Sam Kelly</h2> <!-- #ID# #NAME# INSERT YOUR NAME HERE-->
+		</div>
+	</div>
+
+	<!--INTRODUCTION AND ABOUT-->
+	<div class="intro bar" id="about"><h2>About</h2></div> <!-- #ID# #INTROHEADING# Change the text of the introduction bar here-->
+	<div class="about">
+		This website is the geoportfolio of Sam Kelly. The website entails
+		information that is academically and profesionally related to the field of geospatial science
+		<p>
+		A brief introduction about myself is that I am born and raised in Melbourne, Australia and as of September 2024, 
+		I am in my fourth and final year of the Bachelor of Applied Science (Surveying) (Honours) course. My surveying-
+		related interests are drafting up different plans of survey, conducting different types of field surveys and 
+		solving any cadstral surveying related problems. My current surveying project involves the operation of a 
+		semi-autonomous sonar boat to perform a hydrographic survey at a large lake to determine silt levels.
+		</p>
+		<p>
+		My own personal hobbies include running and reading!
+		</p>	
+	<img src="self portrait.JPG" height="500px" width="auto" class="image"> 
+	<!-- #ID# #SELFPORTRAIT# Change the img src name to match the name of your own self-portrait or delete my image and name your image the same name and place it in the same folder -->
+	</div>
+	<!--END OF INTRODUCTION AND ABOUT SECTION-->
+
+	<!--ACADEMIC PORTFOLIO-->
+	<div class="pagetitle" id="academicinfo">
+        <span class="title-ul">Academic Portfolio Overview</span>
+    </div>
+
+	<!--SUBJECT 1-->
+	
+	<div class="bar"><h2>Advanced Imaging Technology (AIT)</h2></div> <!-- #ID# #SUBJECT# Change the text to fit a subject you have done yourself-->
+	<div class="paragraphs"> <!-- #ID# #AP TEXT# -->
+		Advanced Imaging Technology (AIT) consists of recreating real life objects and structures using 3-dimensional point clouds gathered either in the field 
+        by myself or from already gathered pictures/point clouds provided. Overall, there were 3 assignments and 3 quizzes over the course of the subject, with
+        the quizzes being mainly knowledge checks and the other 3 assignments involved the creation of a point cloud in some manner or form. Assignment 1 involved 
+        gathering pictures of a Melbourne Gaol door and recreating the imaging using a point cloud. Assignment 2 involved using ArcGIS Pro to perform basic
+        analytic tasks using said datasets and finally the final assignment involved reconstructing a building in ArcGIS Pro and then exporting that data into 
+        Cloud Compare to see the reconstruction as a 3D point cloud. Below are the exact assignments performed:
+		<ul> <!--Bullet points below-->
+			<li>Practical 1: 3D reconstruction of Melbourne Gaol using Terrestrial and Mobile Laser Scanners</li>
+			<li>Practical 2: Visualising Aerial LiDAR data and creating surface models</li>
+			<li>LiDAR Assignment: Extracting 3D building models from Point Cloud and Point Cloud analysis</li>
+            <li>Quizzes 1-3</li>
+		</ul> <!--End of bullet points-->
+		<p>
+			Below is an example of a 3D recreation of a Melbourne Gaol door that I have created as part of my course:
+		</p>
+		<p>
+			<b>Note:</b> If picture display is too small, right-click the image and 'Open in new tab' to allow zooming of the picture.
+		</p>
+	</div>	
+	<div class="bar"><h3>Melbourne Gaol Door Reconstruction</h3></div> <!--Assignment name-->
+	<img src="Academic-Gallery/Melbourne Gaol.png" width="auto" height="800px" class="image"> <!-- #ID# #PICTURE# Change to a picture of YOUR assignment images -->
+
+	<!--END OF SUBJECT 1-->
+
+
+	<!--SUBJECT 2-->
+
+	<div class="bar"><h2>Cadastral Surveying Law</h2></div> <!-- #ID# #SUBJECT# Change the text to fit a subject you have done yourself-->
+	<div class="paragraphs">
+		Cadastral Surveying Law was a subject that consisted of two main factors. The first being how laws surrounding cadastral surveying works and how we as 
+        surveyors can work with them.
+        Over the timeframe of the course, there were a total of 6 submissions:
+		<ul>
+			<li>A Practical Survey performed at Parkville</li>
+			<li>An Urban Cadastral Reestablishment</li>
+			<li>A Plan of Subdivision</li>
+            <li>An Abstract of Field Records</li>
+            <li>5 quizzes and a test regarding the laws learned during the course </li>
+		</ul>
+        The Abstract of field records was drafted initially by hand and then drawn up in AutoCAD for a cleaner version similar to those in the industry.
+		<p>
+			<b>Note:</b> If map display is too small, right-click the image and 'Open in new tab' to allow zooming of the map.
+		</p>
+	</div>	
+
+	<div class="bar"><h3>Abstract of Field Records: Draft</h3></div>
+	<img src="Academic-Gallery/Abstract Hand.png" width="auto" height="700px" class="image"> <!-- #ID# #PICTURE# Change to a picture of YOUR assignment images -->
+	<div class="bar"><h3>Abstract of Field Records: Final</h3></div>
+	<img src="Academic-Gallery/Abstract Fin.png" width="40%" height="auto" class="image"> <!-- #ID# #PICTURE# Change to a picture of YOUR assignment images -->
+
+	<!--SUBJECT 2-->
+
+	
+	<!--INDUSTRY EXPERIENCE-->
+
+	<div class="pagetitle" id="industryexperience">
+        <span class="title-ul">Industry Experience</span>
+    </div>
+	<div class="paragraphs">
+		This page will briefly cover all my work experience (as of September 2024) within the surveying industry. The sole company that I have worked at 
+		is called Breese Pitt Dixon (BPD). This page will outline my experience gained and skills I have learned from working at BPD along with an
+		overview of my current surveying skillset.
+	</div>
+
+	<!--COMPANY 1-->
+
+    <div class="bar"><h3>Breese Pitt Dixon</h3></div> <!-- #ID# #COMPANY# Change to your company name-->
+	<img src="breese_pitt_dixon_pty_ltd_logo.jpg" width="auto" height="100px" class="image"> <!-- #ID# #COMPANY# #PICTURE# Change the image to be of a company logo you have worked for-->
+	<div class="job-title">Survey Assistant</div> <!-- #ID# #COMPANY# Change to your company position-->
+	<div class="job-time">September 2023 - Current</div> <!--Change the month and year worked-->
+	<div class="job-overview">
+		I am currently working at Breese Pitt Dixon (BPD) as an assistant surveyor. My time there so far as taught me a great 
+		amount about the industry itself and the standard that is to be met while a part of the surveyinmg industry. I chose 
+		to work at BPD as a family friend referred me to someone in the company when i was seeking a job in the industry. 
+		BPD focuses on many different areas in the engineering and surveying industries such as that of cadastral surveying 
+		work, locating and marking title boundaries, subdivions etc.
+		<p>
+		As part of the surveying team, the work that i perform as an assistant mainly consists of cadastral projects, estate work,
+		subdivions and some office work. These tasks usually require the operation of a total station, staking out specific points
+		and marking them, drafting up plans in the office to help with other jobs etc. At BPD we use Trimble total stations, GPS
+		units, controllers and more. Drones are also another piece of equipment that gets operated quite frequently and is mainly 
+		used to track stockpiles and take aerial photos. Liscad and MicroStation are the main coomputer programs used in the office.	
+		</p>
+	</div>
+	<!--END OF COMPANY 1-->
+	
+	
+	
+	<!--Skills and Proficiencies table-->
+	<div class="bar" style="top:57px" id="sap"><h2>Skills and Proficiencies</h2></div> <!-- #ID# #SKILLS# -->
+    <div class="skills">
+        <table class="icontable">
+            <tr>
+                <td><img src="Icons/liscad.png" class="iconimages"></td>
+				<td>LISCAD</td>
+                <td><img src="Icons/Micro.png" class="iconimages"></td>
+				<td>MicroStation</td>
+            </tr>
+            <tr>
+                <td><img src="Icons/surveying.png" class="iconimages"></td>
+				<td>Surveying</td>
+                <td><img src="Icons/GPS.png" class="iconimages"></td>
+				<td>GPS</td>
+            </tr>
+            <tr>
+                <td><img src="Icons/cad.png" class="iconimages"></td>
+				<td>AutoCAD</td>
+                <td><img src="Icons/Arc Maps.png" class="iconimages"></td>
+				<td>ArcMap</td>
+            </tr>
+            <tr>
+                <td><img src="Icons/cloud.png" class="iconimages"></td>
+				<td>Cloud Compare</td>
+                <td><img src="Icons/earth.png" class="iconimages"></td>
+				<td>Google Earth Pro</td>
+            </tr>
+        </table>
+    </div>
+	<!--END OF Skills and Proficiencies table-->
+
+
+	<!--CREDITS AND ATTRIBUTIONS-->
+	<div class="pagetitle" id="credits"> <!-- #ID# #CREDITS#-->
+        <span class="title-ul">Credits and Attributions</span>
+    </div>
+    
+    <div class="paragraphs">
+       <b> The following programming languages and software were used to create the website</b>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Visual Studio Basic</li>
+        </ul>
+       <b>The deliverables contains content from the following subjects:</b>
+        <ul>
+            <li>Advanced Imaging Technology (GEOM2086)</li>
+            <li>Cadastral Surveying Law (GEOM2101)</li>
+        </ul>
+       <b>Special thanks to the following people who have helped me make this website with their expertise and guidance:</b>
+        <ul>
+            <li>Chayn Sun</li>
+            <li>Barbara Kasieczka</li>
+            <li>Shuyi Cai</li>
+            <li>Kaige Wang</li>
+            <li><a href="https://www.w3schools.com/">W3Schools</a> and <a href="https://stackoverflow.com/">Stack Overflow</a> (a lot!)</li>
+            <li><a href="https://www.flaticon.com/">Flaticon</a></li>
+        </ul>
+        As per the policy of using the Flaticons with a free account, the attributions and crediting of the creators of the icons are as below:
+		
+	<div class="bar"><h2>Attributions of icons used:</h2></div>
+    <table id="attribution-table">
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/graphic_design" title="Liscad">Database icons created by Freepik - Flaticon</a></th>
+            <th><img src="Icons/liscad.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/blueprint" title="MicroStation">Draw icons created by Freepik - Flaticon</a></th>
+            <th><img src="Icons/Micro.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/survey" title="Surveying">Surveying icons created by juicy_fish - Flaticon</a></th>
+            <th><img src="Icons/surveying.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/map" title="GPS">GPS icons created by Freepik - Flaticon</a></th>
+            <th><img src="Icons/GPS.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/document-type" title="AutoCAD">CAD icons created by Freepik - Flaticon</a></th>
+            <th><img src="Icons/cad.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/Maps" title="ArcMap">Maps icons created by Smashicons - Flaticon</a></th>
+            <th><img src="Icons/Arc Maps.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/cloud-computing" title="Cloud Compare">Cloud icon created by Freepik - Flaticon</a></th>
+            <th><img src="Icons/cloud.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/google-earth" title="Google Earth">Google Earth icons created by juicy_fish - Flaticon</a></th>
+            <th><img src="Icons/earth.png" class="icon-attribute"></th>
+        </tr>
+    </table>
+	</div>
+	<!--END OF CREDITS AND ATTRIBUTIONS-->
+
+
+
+	<!--FOOTER-->
+	<div class="footer"> 
+		<div class="compilationinformation"> <!-- #ID# #COMPINFO# -->
+			<b>Compilation information</b>
+			<br>Website made in Adobe Dreamweaver and Visual Studio Code.
+			<br>HTML and CSS code written by Sam Kelly.
+		</div>
+		<table class="contacttable"> <!-- #ID# #CONTACT# -->
+			<caption><h2>Contact Information</h2></caption>
+			<tr>
+				<th><img src="mappin.png" alt="pointer" class="contactimages"></th>
+				<th><img src="mail.png" alt="email" class="contactimages"></th>
+				<th><img src="phone.png" alt="phone" class="contactimages"></th>
+			</tr>
+			<tr>
+				<th>
+					Work address:
+					<br>1/19 Cato St, Hawthorn East, Vic, 3123</th>
+				<th>
+					Email Sam here:
+					<br><a href = "mailto:samk@BPD.com.au">samk@BPD.com.au</a>
+				</th>
+				<th>Mobile:
+					<br>0497481934
+				</th>
+			</tr>
+		</table>
+	</div>
+	<!--END OF FOOTER-->
+
+</body>
+<script> //Code for opening and closing sidebar. DO NOT TOUCH OR EDIT THIS AS THIS IS WHAT WORKS THE SIDEBAR NAVIGATION
+    function open_sidebar() {
+      document.getElementById("sidebar").style.display = "block";
+    }
+    function close_sidebar() {
+      document.getElementById("sidebar").style.display = "none";
+    }
+</script>
+</html>
